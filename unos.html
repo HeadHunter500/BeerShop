@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Unos</title>
+<link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+
+	<header>
+        <h1>Unos</h1>
+    </header>
+
+
+
+    <nav>
+        <a href="index.html">Početak</a>
+        <a href="onama.html">O nama</a>
+		<a href="unos.html">Unos</a>
+        <a href="http://www.tvz.hr/" target="_blank">TVZ</a>
+    </nav>
+    
+	<hr/>
+	<br/>
+	
+	<div id="forma">
+	
+		   <form name="dojmovnik" action="skripta.php" method="POST" enctype="multipart/form-data">
+		   
+		   <label for="naziv">Naziv proizvoda:</label> 
+		   <input id="naziv" type="text" name="naziv"/> 
+		   
+		   <br/>
+		   <hr/>
+		   
+		   <label for="sifra">Šifra:</label> 
+		   <input id="sifra" type="text" name="sifra"/>
+		   
+		   
+		   
+		   <br/>
+		   <hr/>
+		   
+		   
+
+		   
+		  
+		   
+		   <label for="kategorija">Kategorija proizvoda:</label>
+		    <select name="kategorija">
+				<option value="Piva">Piva</option> 
+				<option value="Liker">Liker</option> 
+				<option value="Rakija">Rakija</option>
+		    </select>
+		   
+		   <br/>
+		   <hr/>
+		   
+		    <textarea name="opis" rows="6" cols="30" placeholder="Upišite opis proizvoda..."></textarea>
+		   
+		   		   
+		   <br/>
+		   <hr/>
+		   
+		   <label for="cijena">Cijena:</label>
+		   <input id="cijena" type="text" name="cijena"/>(kn)
+		   
+		   <br/>
+		   <hr/>
+		   
+		    <label for="slika">Slika:</label>
+			<input type="file" name="slika" id="slika"><br>
+		   
+		   
+		   <hr/>
+		   
+		   <input type="checkbox" name="prikaz" value="Obavijest">Želim prikazati obavijest na stranici
+		   
+		   
+		   
+		   
+
+			<br/>
+		   <hr/>
+		   
+		   <div id="gumb">
+		   <input name="gumb" type="submit" value="Pošalji"> 
+			</div>
+
+		   </form>
+		   
+		  
+		   
+   
+   </div>
+
+
+	<br/>
+    <hr/>
+
+
+	<footer>
+    <p>Kreirao: Matko Horvat</p>
+    <p>Kontakt: mhorvat5@tvz.hr</p>
+    <p>Kreirano 2014.</p>
+	<img id="validacija" src="valid-html5.png" alt="HTML5 validacija">
+    </footer>   
+	
+
+
+</body>
+
+</html>
